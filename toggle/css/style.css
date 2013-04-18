@@ -1,0 +1,147 @@
+/* CSS Document*/
+html{background-color:#333;}
+body{width:475px; height:540px; background-color:#fff; padding-top:25px; margin:0 auto; margin-top:30px;
+	font-family:Verdana, Geneva, sans-serif; color:#fff;}
+article{background-color:#000; width:350px; height:240px; margin:0 auto; font-size:24px; line-height:30px;
+		padding:25px;}
+ul{float:left; color:#000;}
+ul a{display:block; font-size:18px; width:200px; height:34px;}
+a{margin:12px 15px 0 5px; border:black 1px solid; border-radius:20px; text-align:center; padding-top:10px;}
+#links{margin:0 0 0 20px; position:fixed;}
+#screen{width:400px; height:320px; margin:0 auto;}
+div{width:420px; height:310px; margin:0 auto;}
+a:hover{color:#090; cursor:pointer; letter-spacing:1px; border-color:#090; background-color:#CFF;}
+a{
+	-webkit-transition:all .3s;
+	-o-transition:all .3s;
+	-moz-transition:all .3s;
+	transition:all .3s;
+}
+
+.mini, .larger, .hide, .background, article{
+	-webkit-transition:all 1s;
+	-o-transition:all 1s;
+	-moz-transition:all 1s;
+	transition:all 1s;
+}
+
+.background{background-image:url(../images/background.jpg);}
+.type{color:#03F;}
+.mini{width:30%; height:30%; font-size:8px; line-height:10px; padding:10px; overflow:hidden;}
+.larger{width:90%; height:80%; font-size:28px;  padding:25px; overflow:hidden; margin-left:-5px; }
+.hide{ opacity:0;}
+.move{position:relative;
+	/*animation: <name> <duration> <timing-function> <delay> <iteration-count> <direction>*/ 
+	-moz-animation: move_anim 18000ms ease-in-out 0s 1 forwards; 
+	-webkit-animation: move_anim 18000ms ease-in-out 0s 1 forwards;	
+	animation: move_anim 18000ms ease-in-out 0s 1 forwards;}
+	
+.move2{position:relative;
+	/*animation: <name> <duration> <timing-function> <delay> <iteration-count> <direction>*/ 
+	-moz-animation: move2_anim 18000ms ease-in-out 0s 1 forwards; 
+	-webkit-animation: move2_anim 18000ms ease-in-out 0s 1 forwards;	
+	animation: move2_anim 18000ms ease-in-out 0s 1 forwards;}
+	
+@-moz-keyframes move_anim {
+	0%{
+		 top:0px; left:0px; opacity:1;
+		 }
+	15%{
+		top:0px; left:475px; opacity:1;
+		}
+	30%{
+		top:550px; left:475px; opacity:1;
+		}
+	45%{
+		top:550px; left:0px; opacity:1;
+		}
+	100%{
+		top:550px; left:0px; opacity:1;
+		}
+}
+@-webkit-keyframes move_anim{
+	0%{
+		 top:0px; left:0px; opacity:1;
+		 }
+	15%{
+		top:0px; left:475px; opacity:1;
+		}
+	30%{
+		top:550px; left:475px; opacity:1;
+		}
+	45%{
+		top:550px; left:0px; opacity:1;
+		}
+	100%{
+		top:550px; left:0px; opacity:1;
+		}
+}
+@keyframes move_anim {
+	0%{
+		 top:0px; left:0px; opacity:1;
+		 }
+	15%{
+		top:0px; left:475px; opacity:1;
+		}
+	30%{
+		top:550px; left:475px; opacity:1;
+		}
+	45%{
+		top:550px; left:0px; opacity:1;
+		}
+	100%{
+		top:550px; left:0px; opacity:1;
+		}
+}
+
+@-moz-keyframes move2_anim {
+	0%{
+		 top:550px; left:0px; opacity:1;
+		 }
+	15%{
+		top:550px; left:475px; opacity:1;
+		}
+	30%{
+		top:0px; left:475px; opacity:1;
+		}
+	45%{
+		top:0px; left:0px; opacity:1;
+		}
+	100%{
+		top:0px; left:0px; opacity:1;
+		}
+}
+@-webkit-keyframes move2_anim {
+	0%{
+		 top:550px; left:0px; opacity:1;
+		 }
+	15%{
+		top:550px; left:475px; opacity:1;
+		}
+	30%{
+		top:0px; left:475px; opacity:1;
+		}
+	45%{
+		top:0px; left:0px; opacity:1;
+		}
+	100%{
+		top:0px; left:0px; opacity:1;
+		}
+}
+@keyframes move2_anim {
+	0%{
+		 top:550px; left:0px; opacity:1;
+		 }
+	15%{
+		top:550px; left:475px; opacity:1;
+		}
+	30%{
+		top:0px; left:475px; opacity:1;
+		}
+	45%{
+		top:0px; left:0px; opacity:1;
+		}
+	100%{
+		top:0px; left:0px; opacity:1;
+		}
+}

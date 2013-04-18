@@ -1,0 +1,11 @@
+/* CSS Document */
+h1{
+	-webkit-transition:all 1s;
+	-o-transition:all 1s;
+	-moz-transition:all 1s;
+	transition:all 1s;
+}
+.color{color:red;}
+.size{font-size:200px;}
+.font{font-family:Arial, Helvetica, sans-serif;}
+a:hover{cursor:pointer;}

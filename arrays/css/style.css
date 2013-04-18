@@ -1,0 +1,20 @@
+/* css */
+html{background-color:black;}
+body{width:960px; height:520px; margin:0 auto; background-color:#fff; margin-top:20px; border-radius:10px;}
+ul {overflow:hidden; width:800px; margin:0 auto; padding-top:25px;}
+li{list-style:none; margin-left:45px; }
+a{width:200px; display:block; background-color:orange; text-align:center; border:black solid 2px; float:left;
+	border-radius:10px; padding:10px; margin-left:10px; font-family:Verdana, Geneva, sans-serif; font-size:16px; }
+a:hover{background-color:#FFC; cursor:pointer; color:orange; border:orange solid 2px;}
+article{ width:910px; height:400px; float:left; margin:20px 0 0 19px; background-color:green; border:orange solid 5px; border-radius:10px; background-color:black;}
+#listDisplay1{width:100px; height:300px; float:left; margin-left:80px; font-family:Verdana, Geneva, sans-serif; font-size:16px; line-height:20px; color:white;}
+#listDisplay2{width:100px; height:300px; float:left; margin-left:150px; font-family:Verdana, Geneva, sans-serif; font-size:16px; line-height:20px; color:white; }
+#listDisplay3{width:300px; height:360px; float:left; font-family:Verdana, Geneva, sans-serif; font-size:16px; line-height:20px; color:white; margin-left:65px;}
+nav{margin:0 auto;}
+a{
+	-webkit-transition:all .8s;
+	-o-transition:all .8s;
+	-moz-transition:all .8s;
+	transition:all .8s;
+}
+
